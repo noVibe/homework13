@@ -3,7 +3,7 @@ public class Main {
         Author tolstoyLN = new Author("Lev", "Tolstoy");
         Author dostoevskyFM = new Author("Fedor", "Dostoevsky");
         Book idiot = new Book (1867, "Idiot", dostoevskyFM);
-        Book warAndPeace = new Book(1870, "War and peace", tolstoyLN);
+        Book warAndPeace = new Book(1877, "War and peace", tolstoyLN);
         warAndPeace.setYear(1863);
         System.out.println(dostoevskyFM);
         System.out.println(warAndPeace);
